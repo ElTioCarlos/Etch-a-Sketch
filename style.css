@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+button {
+    width: 180px;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: rgb(3, 3, 88);
+    color: white;
+}
+
+.container {
+    width: 550px;
+    height: 550px;
+    display: flex;
+    flex-grow: 0;
+    flex-wrap: wrap;
+    border: 2px solid;
+}
+
+.pixel {
+    background-color: white;
+    color: white;
+}
+
+.header {
+    margin-bottom: 8px;
+    height: 55px;
+}
+
+.dashboard {
+    display: flex;
+    justify-content: space-around;
+}
+
+.controls {
+    align-content: center;
+    align-items: center;
+
+}
